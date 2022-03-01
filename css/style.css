@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 2rem;
+}
+
+body {
+    background-color: red;
+}
+
+.container {
+    margin: auto;
+    margin-top: 100px;
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nome {
+    font-size: 0.8rem
+}
+
+.parola_reverse {
+    margin-top: 20px;
+}
+
+.risultato {
+    margin-top: 20px;
+}
