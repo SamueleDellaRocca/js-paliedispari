@@ -1,11 +1,9 @@
 // Palidroma
 // Chiedere all’utente di inserire una parola
 // Creare una funzione per capire se la parola inserita è palindroma
-const btnSelezionato = document.querySelector('.btn');
+const btnSelezionato = document.querySelector('#btn');
 const inputTestoSelezionato = document.querySelector('#name').innerHTML;
 const parolaContrarioSelezionata = document.querySelector('.parola_reverse').innerHTML;
-
-
 
 
 
@@ -34,8 +32,6 @@ function funzioneControllo() {
     } else {
         console.log(parolaUser + ' ' + 'non è palindroma')
     }
-
-
 
 }
 
