@@ -6,11 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+    <h1>Pari o Dispari: The Game</h1>
 
+    <div class="container">
+
+        <label for="paridispari">Scegli pari o dispari:</label>
+
+        <select name="scelta" id="scelta" class="selezione">
+            <option value="pari" selected>Pari</option>
+            <option value="dispari">Dispari</option>
+        </select>
+
+
+        <input type="number" name="numero" id="numero" min="1" max="5" class="selezione" value="1">
+
+        <button id="gioca">gioca</button>
+
+        <h3 id="risultato"></h3>
+
+    </div>
 
     <script src="js/script.js"></script>
 </body>
